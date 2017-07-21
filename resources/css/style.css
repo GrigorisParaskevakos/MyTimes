@@ -109,3 +109,51 @@ h2 {
 .column.small {
     width: 240px;
 }
+
+
+/*css rule for all image-content(s)*/
+
+.image-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    margin-top: 15px;
+    font-family: Georgia;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+
+/*css rule for column large 1st image*/
+
+.lead-story .image-content {
+    background-image: url("../images/MainStory.png");
+    width: 630px;
+    margin-top: 0;
+    font-size: 40px;
+    text-align: left;
+}
+
+
+/*css rule for column large 2nd image*/
+
+.fall-cancelled.image-content {
+    background-image: url("../images/FallSeason.png");
+}
+
+
+/*css rule for column large 3rd image*/
+
+.pop-culture.image-content {
+    background-image: url("../images/HipsterCameraman.png");
+}
+
+
+/*css rule for column medium  image*/
+
+.cat-ceo.image-content {
+    background-image: url("../images/CatCEO.png");
+}
