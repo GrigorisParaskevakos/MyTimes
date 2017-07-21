@@ -55,6 +55,9 @@ nav span {
     padding-top: 116px;
 }
 
+
+/*css rules for class columns*/
+
 .column {
     display: flex;
     flex-direction: column;
@@ -62,7 +65,7 @@ nav span {
 }
 
 
-/*css rule for Large Column*/
+/*css rule for large column*/
 
 .column.large {
     width: 630px;
