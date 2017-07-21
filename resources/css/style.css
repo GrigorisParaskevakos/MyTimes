@@ -1,5 +1,6 @@
 div {
     border: 1px solid red;
+    display: block;
 }
 
 
@@ -72,7 +73,7 @@ nav span {
 }
 
 
-/*css rule for element <p> content*/
+/*css rule for element <p>*/
 
 p {
     display: block;
@@ -80,4 +81,31 @@ p {
     -webkit-margin-after: 1em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
+}
+
+
+/*css rule for element <h2>*/
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+
+/*css rule for medium column*/
+
+.column.medium {
+    width: 300px;
+}
+
+
+/*css rule for small column*/
+
+.column.small {
+    width: 240px;
 }
