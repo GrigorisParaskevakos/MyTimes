@@ -4,6 +4,18 @@ div {
 }
 
 
+/*css rules for body element*/
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
 /*css rules for Header container*/
 
 header {
