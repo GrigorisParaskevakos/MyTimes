@@ -135,6 +135,7 @@ h2 {
     text-align: center;
     font-weight: bold;
     color: white;
+    justify-content: center;
 }
 
 
@@ -146,7 +147,10 @@ h2 {
     margin-top: 0;
     font-size: 40px;
     text-align: left;
-    align-content: center;
+}
+
+.lead-story .image-content span {
+    padding-left: 24px;
 }
 
 
