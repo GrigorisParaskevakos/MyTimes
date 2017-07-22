@@ -1,3 +1,5 @@
+/*css for all div(s)*/
+
 div {
     display: block;
 }
@@ -218,4 +220,42 @@ img.cookie {
 
 .bite span {
     padding-left: 11px;
+}
+
+
+/*css for footer*/
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 325px;
+    background-color: mediumaquamarine;
+    margin: 0 auto;
+    font-family: Verdana;
+    font-size: 12px;
+}
+
+footer .title {
+    display: inline-block;
+    padding-right: 25px;
+    border-right: 2px solid white;
+    color: white;
+}
+
+footer nav {
+    display: inline-block;
+    padding-left: 25px;
+}
+
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.copyright {
+    align-items: flex-end;
+    justify-content: center;
 }
